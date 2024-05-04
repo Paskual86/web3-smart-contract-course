@@ -4,6 +4,9 @@ pragma solidity ^0.8.4;
 // https://docs.soliditylang.org/en/v0.8.13/security-considerations.html?#sending-and-receiving-ether
 // NOTA: El modificador payable, lo que indica es que que vamos a trabajar reciviendo y enviando dinero. SIEMPRE QUE NECESITEMOS
 // ENVIAR O RECIBIR ETHER es necesario que este ese identificador
+// Es necesario entender que el smart contract para ser ejecutado va a requerir cierta cantidad de GAS.
+// Esto quiere decir que si nuestro contrato receptor, ejecuta ciertas operacion al recibir un ether, para poder ejecutarlo correctamente va a necesitarcierta dcantidad de GAS.
+// Si no llega a tener GAS, la operacion de recepcion no va a ser ejecutada.
 
 contract ethSend {
     constructor() payable {}
