@@ -42,6 +42,7 @@ contract Hamburguer is Food {
             owner == msg.sender,
             "No tienees permisos para ejecutar esta funcion"
         );
+        _; // No Olvidar!!!!
     }
 
     function hashPrivateNumber(
