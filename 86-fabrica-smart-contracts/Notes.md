@@ -13,3 +13,12 @@
             }
         }
     ```
+
+## NOTA
+    Para ejecutar correctamente esta funcionalidad desde REMIX 
+    1 ) hay que deployar el contrato padre 
+    2) Presionar el boton Factory
+    3) Ubicar la seleccion del contrato hijo mediante el adress del owner.
+    4) DEployar el contrato del hijo pero esta vez utilizando la direccion del punto 3 (RECORDAR CAMBIAR EL SELECTOR DE CONTRATOS A HIJOS)
+    5) Usar el nuevo contrato.
+
